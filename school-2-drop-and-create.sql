@@ -1,5 +1,5 @@
 -- Drop the students table
-DROP TABLE students;
+DROP TABLE IF EXISTS students;
 
 -- Recreate it
 CREATE TABLE students (
